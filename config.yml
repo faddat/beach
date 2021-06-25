@@ -1,16 +1,27 @@
 accounts:
-  - name: alice
-    coins: ["20000token", "200000000stake"]
-  - name: bob
-    coins: ["10000token", "100000000stake"]
+  - name: tt
+    coins: ["10000000tusd", "10000000tgbp","10000000thkd","10000000tcad","10000000taud","10000000tgld"]
+  - name: carbon
+    coins: ["1000000tons"]
+  - name: clint
+    coins: ["1000000000stake","10tgld"]
+  - name: kyle
+    coins: ["1000000000stake","10tgld"]
+  - name: m
+    coins: ["1000000000stake","10tgld"]
+  - name: artem
+    coins: ["1000000000stake","10tgld"]
+  - name: john
+    coins: ["1000000000stake","10tgld"]
+  - name: randy
+    coins: ["1000000000stake","10tgld"]
+  - name: jacob
+    coins: ["1000000000stake","10tgld"]
 validator:
-  name: alice
+  name: jacob
   staked: "100000000stake"
 client:
   vuex:
     path: "vue/src/store"
   openapi:
     path: "docs/static/openapi.yml"
-faucet:
-  name: bob
-  coins: ["5token", "100000stake"]
